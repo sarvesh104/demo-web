@@ -1,0 +1,104 @@
+.logo{
+  display: flex;
+  float: left;
+  margin-left: 20%;
+}
+.right-but{
+  display: flex;
+  float: right;
+  margin-right: 35%;
+}
+.main-nav{
+  margin-top: 15px;
+  height: 60px;
+    background-color: aqua;
+}
+
+.login{
+  margin-right: 50px;
+  padding: 10px 50px;
+  border: 1px solid #ECECEC;
+  height: 27px;
+  text-align: center;
+  width: 50px;
+  border-radius: 6px;
+  opacity: 1;
+
+}
+.nav-parts
+{
+  padding-top: 5px;
+}
+.get-app{
+  margin-right: -165px;
+  padding: 10px 50px;
+  color: #ffffff;
+  width: 60px;
+  height: 27px;
+  background: #0F6AF4 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+
+}
+.text-intro-1{
+  
+
+width: 188px;
+height: 32px;
+
+text-align: left;
+font: normal normal 900 24px/32px bold;
+letter-spacing: 2.88px;
+color: #08121C;
+opacity: 1;
+}
+.intro-main{
+  top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+
+background: transparent url('images/introbg.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.intro-text{
+  display: flex;
+  float: left;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.mid-img-intro{
+  display: flex;
+  margin-top: 18%;
+  float: right;
+  margin-right: 19%;
+  width: 690px;
+  height: 448px;
+  background: transparent url('images/intromob.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.text-intro-2{
+  width: 414px;
+  height: 103px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 78px/142px Roboto;
+  letter-spacing: 1.56px;
+  color: #4472F1;
+  opacity: 1;
+}
+.text-intro-3{
+ 
+
+width: 555px;
+height: 268px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 30px/44px Roboto;
+letter-spacing: 0.6px;
+color: #08121C;
+opacity: 1;
+}
