@@ -16,35 +16,35 @@
 }
 .main-nav{
   margin-top: 15px;
-  width: 80%;
-  height: 60px;
+  width: 84%;
+  height: 40px
     /* background-color: aqua; */
 }
 .login{
-  font-size: 20px;
-width: 125px;
-
-height: 35px;
-text-align: center;
-padding-top: 5px;
-border: 2px solid #ECECEC;
-border-radius: 2px;
-opacity: 1;
+  font-size: 15px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  padding-top: 6px;
+  border: 2px solid #ECECEC;
+  border-radius: 2px;
+  opacity: 1;
+  font-weight: 700;
 }
 
 .get-app{
-  margin-left: 50px;
-  margin-right: -350px;
+  margin-left: 37px;
+  margin-right: -345px;
   /* padding: 10px 50px; */
   color: #ffffff;
   width: 125px;
   text-align: center;
   padding-top: 7px;
-  font-size: 20px;
-
+  font-size: 12px;
   background: #0F6AF4 0% 0% no-repeat padding-box;
-  border-radius: 6px;
+  border-radius: 3px;
   opacity: 1;
+  font-weight: 700;
 
 }
 
@@ -54,7 +54,7 @@ opacity: 1;
 font-weight: bold;
 letter-spacing: 2.88px;
 color: #08121C; 
-font-size: 18px;
+font-size: 13px;
 opacity: 1;
 }
 
@@ -70,43 +70,39 @@ opacity: 1;
     background: transparent url("images/introbg.png") no-repeat;
   background-position: 100%;
   background-size: 100%;
-  height: 900px;
+  height: 532px;
   }
 
   .mid-img-intro{
     display: flex;
-    margin-top: 15%;
+  margin-top: -20%;
     float: right;
-    margin-right: 13%;
-    width: 690px;
-    height: 448px;
-    background: transparent url('images/intromob.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    margin-right: 25%;
+ 
   
   }
   
 .text-intro-2{
-  width: 414px;
-  height: 103px;
-  /* UI Properties */
   text-align: left;
-  font: normal normal 900 78px/142px Roboto;
+  font: normal normal 900 44px Roboto;
   letter-spacing: 1.56px;
   color: #4472F1;
+  margin-top: 8px;
   opacity: 1;
-  padding-bottom:10px ;
+  padding-bottom: 10px;
 }
 .text-intro-3{
- 
-
-width: 555px;
-height: 268px;
-
-text-align: left;
-font: normal normal normal 30px/50px Roboto;
-letter-spacing: 0.6px;
-color: #08121C;
-opacity: 1;
-margin-top: 50px;
-font-weight: 200;
+  width: 100%;
+  height: 268px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #08121C;
+  opacity: 1;
+  margin-top: 16px;
+  
+}
+.intro-text{
+  width: 35%;
 }

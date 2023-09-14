@@ -1,4 +1,5 @@
 import React from 'react'
+import inTro from "../images/intromob.png";
 
 const Intro = () => {
   return (
@@ -12,7 +13,7 @@ const Intro = () => {
       </div>
 
       <div className='mid-img-intro'>
-
+<img  src={ inTro} width="337px" />
       </div>
 
 </div>
