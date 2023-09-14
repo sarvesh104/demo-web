@@ -2,6 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
+    <div className='bgimg'>
     <div className='intro-main'>
       <div className='intro-text'>
 <div className='text-intro-1'><span>— </span>INTRODUCING</div>
@@ -13,7 +14,7 @@ const Intro = () => {
 
       </div>
 
-
+</div>
     </div>
   )
 }

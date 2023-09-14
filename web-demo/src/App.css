@@ -12,29 +12,29 @@
 .right-but{
   display: flex;
   float: right;
-  margin-right: 35%;
+  margin-right: 30%;
 }
 .main-nav{
   margin-top: 15px;
-  width: 100%;
+  width: 80%;
   height: 60px;
     /* background-color: aqua; */
 }
 
 .login{
-  top: 51px;
-  font-weight: 700;
-text-align: center;
-font-size: 25px;
+  /* margin-top: 7px; */
+  /* padding:10px 10px 20px 10px;
+  font-weight:700; */
 
-width: 229px;
-padding-top: 18px;
-height: 49px;
+font-size: 20px;
+width: 125px;
+
+height: 35px;
+text-align: center;
+padding-top: 5px;
 border: 2px solid #ECECEC;
-border-radius: 6px;
+border-radius: 2px;
 opacity: 1;
-display: flex;
-justify-content: center;
 
 
   /* margin-right: 50px;
@@ -56,13 +56,13 @@ justify-content: center;
 .get-app{
   margin-left: 50px;
   margin-right: -350px;
-  padding: 10px 50px;
+  /* padding: 10px 50px; */
   color: #ffffff;
-  width: 100px;
+  width: 125px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 7px;
   font-size: 20px;
-  height: 39px;
+
   background: #0F6AF4 0% 0% no-repeat padding-box;
   border-radius: 6px;
   opacity: 1;
@@ -84,21 +84,25 @@ margin-top: -50px;
 
 width: 100%;
 height: 1080px;
-
-background: transparent url('images/introbg.png') 0% 0% no-repeat padding-box;
+/* 
+background: transparent url('images/introbg.png') 0% 0% no-repeat padding-box; */
 opacity: 1;
 }
 
+.bgimg{
+  background: transparent url('images/introbg.png') 0% 0% no-repeat padding-box;
+background-size: 114rem;
+background-position: 63rem;}
 .intro-text{
   display: flex;
   float: left;
   flex-direction: column;
   margin-left: 15%;
-  margin-top: 18%;
+  margin-top: 15%;
 }
 .mid-img-intro{
   display: flex;
-  margin-top: 18%;
+  margin-top: 15%;
   float: right;
   margin-right: 13%;
   width: 690px;
@@ -175,3 +179,65 @@ font-weight: 300;  text-align: left;
 /* about page style ends here */
 
 
+.answer-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  width: 1920px;
+height: 1319px;
+/* UI Properties */
+background: #EAF1FD 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+
+
+.text-ans1{
+margin-top: 5%;
+  width: 70%;
+  height: 165px;
+  font-size: 30px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 52px/67px Roboto;
+  letter-spacing: 2px;
+  color: #3D3D3D;
+  opacity: 1;
+  
+}
+
+.im-ans{
+  width: 920px;
+height: 499px;
+}
+.text-ans2{
+  
+  width: 920px;
+  height: 135px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 20px/34px Roboto;
+  letter-spacing: 0.48px;
+  color: #737373;
+  opacity: 1;
+  
+}
+
+.text-ans3{
+  margin-top: 2%;
+  width: 920px;
+height: 135px;
+  text-align: center;
+  font: normal normal normal 20px/34px Roboto;
+  letter-spacing: 0.48px;
+  color: #737373;
+  opacity: 1;
+  
+
+}
+.Container{
+  margin: 0;
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+}

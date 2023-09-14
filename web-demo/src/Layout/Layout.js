@@ -3,15 +3,17 @@ import Navbar from '../components/Navbar';
 import Intro from '../components/Intro';
 import About from '../components/About';
 import Answer from '../components/Answer';
+import Footer from '../components/Footer';
 
 const Layout = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <br/>
-      <Intro /> */}
-      <About />
+      <Intro />
+      {/* <About />
       <Answer />
+      <Footer /> */}
     </div>
   )
 }
