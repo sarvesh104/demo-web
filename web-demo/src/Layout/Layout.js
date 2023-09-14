@@ -7,9 +7,9 @@ import Answer from '../components/Answer';
 const Layout = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <br/>
-      <Intro />
+      <Intro /> */}
       <About />
       <Answer />
     </div>

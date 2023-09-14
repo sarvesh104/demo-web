@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div className="main-nav">
     <div className="nav-parts">
-      <div className="logo"><img src={Logo} style={{    width: "165px",
-    height: "45px"}}/></div>
+      <div className="logo"><img src={Logo} style={{    width: "250px",
+    height: "68px"}}/></div>
       <div className="right-but">
         <div className="login">Login</div>
         <div className="get-app">Get <span> App</span></div>
