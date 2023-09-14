@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div >
-    <div className='Container'>
+    <div className='Container1'>
     <div className='intro-main'>
       <div className='intro-text'>
 <div className='text-intro-1'><span>— </span>INTRODUCING</div>
