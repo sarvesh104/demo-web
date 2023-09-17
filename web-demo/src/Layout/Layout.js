@@ -9,11 +9,11 @@ const Layout = () => {
   return (
     <div>
       <Navbar />
-      <br/>
+
       <Intro />
-      {/* <About />
+      <About />
       <Answer />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

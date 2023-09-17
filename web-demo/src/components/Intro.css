@@ -1,0 +1,63 @@
+/* Intro.css */
+.Container {
+  background-image: url('../images/introbg.png  '); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.intro-main {
+  
+  margin-top: 15%;
+  width: 63%;
+  margin-left: 17%;
+  height: 100vh;
+  opacity: 1;
+}
+
+.text-intro-1 {
+  font-size: 24px;
+}
+
+.text-intro-2 {
+  font-size: 36px; 
+}
+
+.text-intro-3 {
+  font-size: 16px; 
+  margin-top: 10px;
+}
+
+@media srceen and (max-width: 600px) {
+  .Container {
+  margin-top: 50px;
+    background-size: contain; 
+  }
+
+  .intro-main {
+  
+    width: 100%;
+    display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  
+
+  }
+  
+
+  .text-intro-1 {
+    font-size: 32px; 
+    margin-right: 20px; 
+  }
+
+  .text-intro-2 {
+    font-size: 48px; 
+  }
+
+  .text-intro-3 {
+    font-size: 20px; 
+    margin-top: 0;
+  }
+}
